@@ -7,8 +7,7 @@
 # ─────────────────────────────────────────────────────────────────────────────
 
 spark.conf.set(
-    "fs.azure.account.key.healthcaredatalake01.dfs.core.windows.net",
-    "2Fq81ioYgGVzwZPbbWhc3SCNa6kHCVnZiGMmwrJXCLjZxGlVAUoVEWXXpkvU4/7SV9OJNFpeEBe++AStZRGYAg=="
+    "YOUR_ACCESS_KEY_HERE"
 )
 
 raw_path = "abfss://healthcare-data@healthcaredatalake01.dfs.core.windows.net/raw/"
