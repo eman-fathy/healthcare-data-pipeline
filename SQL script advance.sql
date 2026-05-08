@@ -1,5 +1,5 @@
 USE HEALTHCARE_DW;
--- 🚨 إنذار مبكر: أكثر الأمراض انتشاراً
+-- early warning What are the most common diseases ?
 CREATE VIEW VW_EARLY_WARNING AS
 SELECT 
     medical_condition,
@@ -17,7 +17,7 @@ FROM OPENROWSET(
 ) AS result
 GROUP BY medical_condition;
 
--- 🔴 تتبع الأوبئة: انتشار الأمراض بالموسم
+-- Track outbreaks: disease spread by season
 CREATE VIEW VW_EPIDEMIC_TRACKING AS
 SELECT 
     medical_condition,
