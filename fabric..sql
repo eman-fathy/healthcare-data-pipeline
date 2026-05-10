@@ -76,7 +76,7 @@ FROM healthcare_lakehouse.healthcare_silver
 GROUP BY medical_condition, admission_season;
 
 -- ============================================
--- شغل صفاء - Dimension Tables
+--  Dimension Tables
 -- ============================================
 
 -- dim_patient
@@ -124,7 +124,7 @@ SELECT DISTINCT
 FROM healthcare_lakehouse.healthcare_silver;
 
 -- ============================================
--- شغل صفاء - Fact Table
+-- - Fact Table
 -- ============================================
 CREATE VIEW fact_admissions AS
 SELECT
