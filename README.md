@@ -105,11 +105,10 @@ The dashboard lives at [`powerbi/healthcare_dashboard.pbix`](powerbi/healthcare_
 
 | Member | Role |
 |---|---|
-| **Eman Fathy** | Team Leader • Data Warehouse & SQL |
-| Mohamed Essam | Data Ingestion & Pipeline Development |
+| **Eman Fathy** | Team Leader • Data Ingestion & Pipeline Development |
 | Eslam Abdelhady Mesbah | Data Processing & Transformation |
 | Safaa Tolba | Data Warehouse & SQL |
-| Ibrahim Abdel Salam | Dashboard & Reporting |
+| Ahmed Hamza | Dashboard & Reporting |
 
 ---
 
